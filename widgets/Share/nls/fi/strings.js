@@ -1,12 +1,17 @@
-define({
-  "_widgetLabel": "Jaa",
-  "selectSocialNetwork": "Valitse seuraavat toiminnot sovelluksen jakamista varten:",
-  "email": "Sähköposti",
-  "facebook": "Facebook",
-  "googlePlus": "Google+",
-  "twitter": "Twitter",
-  "addNew": "Lisää uusi",
-  "socialMediaUrl": "Sosiaalisen mediasi URL-osoite",
-  "uploadIcon": "Lataa kuvake",
-  "embedAppInWebsite": "Upota sovellus Web-sivustoon"
-});
+define(
+   ({
+    title: "Jaa",
+    heading: "Jaa tämä kartta",
+    url: "Karttalinkki",
+    embed: "Upota kartta",
+    extent: "Jaa nykyisen kartan laajuus",
+    size: "Koko (leveys/korkeus):",
+    facebookTooltip: "Facebook",
+    twitterTooltip: "Twitter",
+    gplusTooltip: "Google Plus",
+    emailTooltip: "Sähköposti",
+    widgetversion: 'Share Widget Version Info',
+    widgetverstr: 'Widget Version',
+    wabversionmsg: 'Widget is designed to run in Web AppBuilder version'
+  })
+);

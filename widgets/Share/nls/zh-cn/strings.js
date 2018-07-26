@@ -1,12 +1,17 @@
-define({
-  "_widgetLabel": "共享",
-  "selectSocialNetwork": "选择下列选项以共享应用程序:",
-  "email": "电子邮件",
-  "facebook": "Facebook",
-  "googlePlus": "Google+",
-  "twitter": "Twitter",
-  "addNew": "新增",
-  "socialMediaUrl": "您的社交媒体 URL",
-  "uploadIcon": "上传图标",
-  "embedAppInWebsite": "将应用程序嵌入到网站中"
-});
+define(
+   ({
+    title: "共享",
+    heading: "共享此地图",
+    url: "地图链接",
+    embed: "嵌入地图",
+    extent: "共享当前地图范围",
+    size: "大小(宽度/高度):",
+    facebookTooltip: "Facebook",
+    twitterTooltip: "Twitter",
+    gplusTooltip: "Google Plus",
+    emailTooltip: "电子邮件",
+    widgetversion: 'Share Widget Version Info',
+    widgetverstr: 'Widget Version',
+    wabversionmsg: 'Widget is designed to run in Web AppBuilder version'
+  })
+);

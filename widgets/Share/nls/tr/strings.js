@@ -1,12 +1,17 @@
-define({
-  "_widgetLabel": "Paylaş",
-  "selectSocialNetwork": "Uygulamayı paylaşmak için aşağıdaki seçenekleri belirleyin:",
-  "email": "E-posta",
-  "facebook": "Facebook",
-  "googlePlus": "Google+",
-  "twitter": "Twitter",
-  "addNew": "Yeni ekle",
-  "socialMediaUrl": "Sosyal medya URL'niz",
-  "uploadIcon": "Yükleme simgesi",
-  "embedAppInWebsite": "Uygulamayı web sitesine yerleştir"
-});
+define(
+   ({
+    title: "Paylaş",
+    heading: "Bu haritayı paylaş",
+    url: "Harita Bağlantısı",
+    embed: "Haritayı Ekle",
+    extent: "Geçerli harita uzantısını paylaş",
+    size: "Boyut (genişlik/yükseklik):",
+    facebookTooltip: "Facebook",
+    twitterTooltip: "Twitter",
+    gplusTooltip: "Google Plus",
+    emailTooltip: "E-posta",
+    widgetversion: 'Share Widget Version Info',
+    widgetverstr: 'Widget Version',
+    wabversionmsg: 'Widget is designed to run in Web AppBuilder version'
+  })
+);

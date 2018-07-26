@@ -1,12 +1,17 @@
-define({
-  "_widgetLabel": "مشاركة",
-  "selectSocialNetwork": "حدد الخيارات التالية لمشاركة التطبيق:",
-  "email": "البريد الإلكتروني",
-  "facebook": "فيس بوك",
-  "googlePlus": "Google+",
-  "twitter": "تويتر",
-  "addNew": "إضافة جديد",
-  "socialMediaUrl": "عنوان URL لوسائطك الاجتماعية",
-  "uploadIcon": "تحميل أيقونة",
-  "embedAppInWebsite": "تضمين التطبيق في موقع ويب"
-});
+define(
+   ({
+    title: "مشاركة",
+    heading: "مشاركة هذه الخريطة",
+    url: "رابط الخريطة",
+    embed: "تضمين الخريطة",
+    extent: "مشاركة نطاق الخريطة الحالي",
+    size: "الحجم (الاتساع/الارتفاع):",
+    facebookTooltip: "Facebook",
+    twitterTooltip: "Twitter",
+    gplusTooltip: "Google Plus",
+    emailTooltip: "البريد الإلكتروني",
+    widgetversion: 'Share Widget Version Info',
+    widgetverstr: 'Widget Version',
+    wabversionmsg: 'Widget is designed to run in Web AppBuilder version'
+  })
+);

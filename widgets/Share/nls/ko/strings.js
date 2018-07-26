@@ -1,12 +1,17 @@
-define({
-  "_widgetLabel": "공유",
-  "selectSocialNetwork": "앱을 공유할 다음 옵션 선택:",
-  "email": "이메일",
-  "facebook": "Facebook",
-  "googlePlus": "Google+",
-  "twitter": "Twitter",
-  "addNew": "새로 추가",
-  "socialMediaUrl": "소셜 미디어 URL",
-  "uploadIcon": "아이콘 업로드",
-  "embedAppInWebsite": "웹 사이트에 앱 임베드"
-});
+define(
+   ({
+    title: "공유",
+    heading: "이 맵 공유",
+    url: "맵 링크",
+    embed: "맵 포함",
+    extent: "현재 맵 범위 공유",
+    size: "크기(너비/높이):",
+    facebookTooltip: "Facebook",
+    twitterTooltip: "Twitter",
+    gplusTooltip: "Google Plus",
+    emailTooltip: "이메일",
+    widgetversion: 'Share Widget Version Info',
+    widgetverstr: 'Widget Version',
+    wabversionmsg: 'Widget is designed to run in Web AppBuilder version'
+  })
+);

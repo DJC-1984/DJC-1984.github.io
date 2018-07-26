@@ -1,12 +1,17 @@
-define({
-  "_widgetLabel": "Delen",
-  "selectSocialNetwork": "Selecteer de volgende opties om de app te delen:",
-  "email": "E-mail",
-  "facebook": "Facebook",
-  "googlePlus": "Google+",
-  "twitter": "Twitter",
-  "addNew": "Nieuwe toevoegen",
-  "socialMediaUrl": "Uw social media URL",
-  "uploadIcon": "Pictogram uploaden",
-  "embedAppInWebsite": "App inbedden in website"
-});
+define(
+   ({
+    title: "Delen",
+    heading: "Deze kaart delen",
+    url: "Kaartkoppeling",
+    embed: "Kaart inbedden",
+    extent: "Huidige kaartextent delen",
+    size: "Grootte (breedte/hoogte):",
+    facebookTooltip: "Facebook",
+    twitterTooltip: "Twitter",
+    gplusTooltip: "Google Plus",
+    emailTooltip: "E-mail",
+    widgetversion: 'Share Widget Version Info',
+    widgetverstr: 'Widget Version',
+    wabversionmsg: 'Widget is designed to run in Web AppBuilder version'
+  })
+);

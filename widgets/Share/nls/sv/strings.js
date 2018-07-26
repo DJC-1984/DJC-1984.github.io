@@ -1,12 +1,17 @@
-define({
-  "_widgetLabel": "Dela",
-  "selectSocialNetwork": "Välj följande alternativ för att dela appen:",
-  "email": "E-post",
-  "facebook": "Facebook",
-  "googlePlus": "Google+",
-  "twitter": "Twitter",
-  "addNew": "Lägg till ny",
-  "socialMediaUrl": "URL till ditt sociala medium",
-  "uploadIcon": "Överför ikon",
-  "embedAppInWebsite": "Bädda in appen på en webbplats"
-});
+define(
+   ({
+    title: "Dela",
+    heading: "Dela den här kartan",
+    url: "Kartlänk",
+    embed: "Bädda in karta",
+    extent: "Dela aktuell kartutbredning",
+    size: "Storlek (bredd/höjd):",
+    facebookTooltip: "Facebook",
+    twitterTooltip: "Twitter",
+    gplusTooltip: "Google Plus",
+    emailTooltip: "E-post",
+    widgetversion: 'Share Widget Version Info',
+    widgetverstr: 'Widget Version',
+    wabversionmsg: 'Widget is designed to run in Web AppBuilder version'
+  })
+);

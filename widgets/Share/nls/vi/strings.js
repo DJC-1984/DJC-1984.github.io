@@ -1,12 +1,17 @@
-define({
-  "_widgetLabel": "Chia sẻ",
-  "selectSocialNetwork": "Chọn các tùy chọn sau để chia sẻ ứng dụng:",
-  "email": "Email",
-  "facebook": "Facebook",
-  "googlePlus": "Google+",
-  "twitter": "Twitter",
-  "addNew": "Thêm mới",
-  "socialMediaUrl": "URL phương tiện truyền thông xã hội của bạn",
-  "uploadIcon": "Biểu tượng tải lên",
-  "embedAppInWebsite": "Nhúng ứng dụng vào trang web"
-});
+define(
+   ({
+    title: "Chia sẻ",
+    heading: "Chia sẻ bản đồ này",
+    url: "Liên kết Bản đồ",
+    embed: "Nhúng Bản đồ",
+    extent: "Chia sẻ phạm vi bản đồ hiện tại",
+    size: "Kích thước (chiều rộng/chiều cao):",
+    facebookTooltip: "Facebook",
+    twitterTooltip: "Twitter",
+    gplusTooltip: "Google Plus",
+    emailTooltip: "Email",
+    widgetversion: 'Share Widget Version Info',
+    widgetverstr: 'Widget Version',
+    wabversionmsg: 'Widget is designed to run in Web AppBuilder version'
+  })
+);

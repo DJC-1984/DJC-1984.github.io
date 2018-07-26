@@ -1,12 +1,17 @@
-define({
-  "_widgetLabel": "Sdílet",
-  "selectSocialNetwork": "Vyberte následující možnosti pro sdílení aplikace:",
-  "email": "E-mail",
-  "facebook": "Facebook",
-  "googlePlus": "Google+",
-  "twitter": "Twitter",
-  "addNew": "Přidat nové",
-  "socialMediaUrl": "Adresa URL vaší stránky na sociálních sítích",
-  "uploadIcon": "Nahrát ikonu",
-  "embedAppInWebsite": "Vložit aplikaci do webových stránek"
-});
+define(
+   ({
+    title: "Sdílet",
+    heading: "Sdílet tuto mapu",
+    url: "Odkaz na mapu",
+    embed: "Vložit mapu",
+    extent: "Sdílet současný rozsah mapy",
+    size: "Velikost (šířka/výška):",
+    facebookTooltip: "Facebook",
+    twitterTooltip: "Twitter",
+    gplusTooltip: "Google Plus",
+    emailTooltip: "E-mail",
+    widgetversion: 'Share Widget Version Info',
+    widgetverstr: 'Widget Version',
+    wabversionmsg: 'Widget is designed to run in Web AppBuilder version'
+  })
+);

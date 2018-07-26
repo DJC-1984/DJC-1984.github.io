@@ -1,12 +1,17 @@
-define({
-  "_widgetLabel": "Condividi",
-  "selectSocialNetwork": "Selezionare le seguenti opzioni per condividere l'app:",
-  "email": "E-mail",
-  "facebook": "Facebook",
-  "googlePlus": "Google+",
-  "twitter": "Twitter",
-  "addNew": "Aggiungi nuovo",
-  "socialMediaUrl": "URL del social media",
-  "uploadIcon": "Icona Carica",
-  "embedAppInWebsite": "Incorpora l'app in un sito Web"
-});
+define(
+   ({
+    title: "Condividi",
+    heading: "Condividi la mappa",
+    url: "Collegamento a mappa",
+    embed: "Incorpora mappa",
+    extent: "Condividi estensione mappa corrente",
+    size: "Dimensioni (larghezza/altezza):",
+    facebookTooltip: "Facebook",
+    twitterTooltip: "Twitter",
+    gplusTooltip: "Google Plus",
+    emailTooltip: "E-mail",
+    widgetversion: 'Share Widget Version Info',
+    widgetverstr: 'Widget Version',
+    wabversionmsg: 'Widget is designed to run in Web AppBuilder version'
+  })
+);

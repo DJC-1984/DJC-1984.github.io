@@ -1,12 +1,17 @@
-define({
-  "_widgetLabel": "Jaga",
-  "selectSocialNetwork": "Valige rakenduse jagamiseks järgmised valikud:",
-  "email": "E-post",
-  "facebook": "Facebook",
-  "googlePlus": "Google+",
-  "twitter": "Twitter",
-  "addNew": "Lisa uus",
-  "socialMediaUrl": "Teie sotsiaalmeedia URL",
-  "uploadIcon": "Laadi ikoon",
-  "embedAppInWebsite": "Manusta rakendus veebisaidile"
-});
+define(
+   ({
+    title: "Jaga",
+    heading: "Jaga seda kaarti",
+    url: "Kaardi link",
+    embed: "Lisa kaart",
+    extent: "Jaga praeguse kaardi kuvaulatust",
+    size: "Suurus (laius/kõrgus):",
+    facebookTooltip: "Facebook",
+    twitterTooltip: "Twitter",
+    gplusTooltip: "Google Plus",
+    emailTooltip: "e-mail",
+    widgetversion: 'Share Widget Version Info',
+    widgetverstr: 'Widget Version',
+    wabversionmsg: 'Widget is designed to run in Web AppBuilder version'
+  })
+);

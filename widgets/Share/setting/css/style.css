@@ -1,31 +1,27 @@
-.jimu-widget-share-setting {
-  font-size: 14px;
+/* widget-share-setting */
+.widget-share-setting{
+  margin:0;
+  padding:0;
+  font-size:15px;
+}
+.widget-share-setting .dijitArrowButtonContainer{
+  width: 17px;
 }
 
-.jimu-widget-share-setting .title{
-  font-size: 16px;
+.widget-share-setting .setting-table > thead > tr > th,
+.widget-share-setting .setting-table > tbody > tr > td{
+  height:40px;
+  line-height:40px;
+  vertical-align:middle;
 }
 
-.jimu-widget-share-setting .row {
-  height: 30px;
-  line-height: 30px;
-  vertical-align: middle;
+.widget-share-setting .input-table > tbody > tr > .first{
+  width:auto;
+  text-align: right;
+  padding-right:15px;
+  min-width: 200px;
 }
 
-.jimu-widget-share-setting .cb {
-  vertical-align: middle;
-  margin: 0 5px;
-}
-
-.jimu-widget-share-setting .cb-label {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.jimu-widget-share-setting .hide {
-  display: none
-}
-
-.jimu-widget-share-setting .use-org {
-  margin-top: 30px;
+.widget-share-setting .input-table > tbody > tr > .second{
+  width:650px;
 }

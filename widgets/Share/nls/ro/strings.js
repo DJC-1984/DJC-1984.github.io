@@ -1,12 +1,17 @@
-define({
-  "_widgetLabel": "Partajare",
-  "selectSocialNetwork": "Selectaţi următoarele opţiuni pentru a partaja aplicaţia:",
-  "email": "E-mail",
-  "facebook": "Facebook",
-  "googlePlus": "Google+",
-  "twitter": "Twitter",
-  "addNew": "Adăugare nou",
-  "socialMediaUrl": "Adresa URL a reţelei dvs. de socializare",
-  "uploadIcon": "Pictograma Încărcare",
-  "embedAppInWebsite": "Încorporaţi aplicaţia într-un site web"
-});
+define(
+   ({
+    title: "Partajare",
+    heading: "Partajare această hartă",
+    url: "Link către hartă",
+    embed: "Încorporare hartă",
+    extent: "Partajare extindere curentă a hărţii",
+    size: "Dimensiune (lăţime/înălţime):",
+    facebookTooltip: "Facebook",
+    twitterTooltip: "Twitter",
+    gplusTooltip: "Google Plus",
+    emailTooltip: "E-mail",
+    widgetversion: 'Share Widget Version Info',
+    widgetverstr: 'Widget Version',
+    wabversionmsg: 'Widget is designed to run in Web AppBuilder version'
+  })
+);

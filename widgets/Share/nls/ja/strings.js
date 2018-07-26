@@ -1,12 +1,17 @@
-define({
-  "_widgetLabel": "共有",
-  "selectSocialNetwork": "次のオプションを選択してアプリを共有します:",
-  "email": "電子メール",
-  "facebook": "Facebook",
-  "googlePlus": "Google+",
-  "twitter": "Twitter",
-  "addNew": "新規追加",
-  "socialMediaUrl": "ソーシャル メディアの URL",
-  "uploadIcon": "アイコンのアップロード",
-  "embedAppInWebsite": "Web サイトにアプリを埋め込む"
-});
+define(
+   ({
+    title: "共有",
+    heading: "このマップを共有",
+    url: "マップ リンク",
+    embed: "マップの埋め込み",
+    extent: "現在のマップ表示範囲の共有",
+    size: "サイズ (幅/高さ):",
+    facebookTooltip: "Facebook",
+    twitterTooltip: "Twitter",
+    gplusTooltip: "Google+",
+    emailTooltip: "電子メール",
+    widgetversion: 'Share Widget Version Info',
+    widgetverstr: 'Widget Version',
+    wabversionmsg: 'Widget is designed to run in Web AppBuilder version'
+  })
+);

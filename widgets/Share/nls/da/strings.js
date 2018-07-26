@@ -1,12 +1,17 @@
-define({
-  "_widgetLabel": "Del",
-  "selectSocialNetwork": "Vælg følgende indstillinger for at dele app'en:",
-  "email": "E-mail",
-  "facebook": "Facebook",
-  "googlePlus": "Google+",
-  "twitter": "Twitter",
-  "addNew": "Tilføj nyt",
-  "socialMediaUrl": "URL til dine sociale medier",
-  "uploadIcon": "Overfør ikon",
-  "embedAppInWebsite": "Indlejr app'en i webstedet"
-});
+define(
+   ({
+    title: "Del",
+    heading: "Del dette kort",
+    url: "Kort-link",
+    embed: "Integrér kort",
+    extent: "Del aktuelt kortområde",
+    size: "Størrelse (bredde/højde):",
+    facebookTooltip: "Facebook",
+    twitterTooltip: "Twitter",
+    gplusTooltip: "Google Plus",
+    emailTooltip: "E-mail",
+    widgetversion: 'Share Widget Version Info',
+    widgetverstr: 'Widget Version',
+    wabversionmsg: 'Widget is designed to run in Web AppBuilder version'
+  })
+);

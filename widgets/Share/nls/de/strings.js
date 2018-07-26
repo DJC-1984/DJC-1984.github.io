@@ -1,12 +1,17 @@
-define({
-  "_widgetLabel": "Freigeben",
-  "selectSocialNetwork": "Wählen Sie folgende Optionen zum Freigeben der App aus:",
-  "email": "E-Mail",
-  "facebook": "Facebook",
-  "googlePlus": "Google+",
-  "twitter": "Twitter",
-  "addNew": "Neue hinzufügen",
-  "socialMediaUrl": "Ihre Social Media-URL",
-  "uploadIcon": "Symbol hochladen",
-  "embedAppInWebsite": "Die App in die Website einbetten"
-});
+define(
+   ({
+    title: "Freigeben",
+    heading: "Diese Karte freigeben",
+    url: "Karten-Link",
+    embed: "Karte einbetten",
+    extent: "Aktuelle Kartenausdehnung freigeben",
+    size: "Größe (Breite/Höhe):",
+    facebookTooltip: "Facebook",
+    twitterTooltip: "Twitter",
+    gplusTooltip: "Google Plus",
+    emailTooltip: "E-Mail",
+    widgetversion: 'Share Widget Version Info',
+    widgetverstr: 'Widget Version',
+    wabversionmsg: 'Widget is designed to run in Web AppBuilder version'
+  })
+);
